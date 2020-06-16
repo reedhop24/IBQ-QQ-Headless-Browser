@@ -1,0 +1,3 @@
+# IBQ QQ Headless Browser Testing
+
+###### This small test application came out of my growing irretation with having to click through our full UI in order to reach the aspect of the application I ws working on. This small testing project is built using Node, Puppeteer, and Jest. I built this application to launch a Chromium instance that would go to the URL where I was running the app locally. As of now it is just pointed to our test environment. Once puppeteer lands on the intitial page it will click through and fill all the data until it reaches whatever point I am working on. As of my latest use for this application, it ends on the About You tab and tests out the error handling for the Birthdate that we were working on. 
